@@ -1,4 +1,4 @@
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 import json
 import random
 
@@ -67,7 +67,7 @@ def print_random_sentence():
 def main_loop():
     while True:
         print_random_sentence()
-        message = ('Voulez-vous voir une autre citation ?'
+        message = ('Voulez-vous voir une autre citation ? '
                    'Pour sortir du programme, tapez [B].')
         choice = input(message).upper()
         if choice == 'B':
